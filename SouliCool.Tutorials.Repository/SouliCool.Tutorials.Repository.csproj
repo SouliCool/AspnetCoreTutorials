@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SouliCool.Tutorials.Contracts\SouliCool.Tutorials.Contracts.csproj" />
+    <ProjectReference Include="..\SouliCool.Tutorials.Entities\SouliCool.Tutorials.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

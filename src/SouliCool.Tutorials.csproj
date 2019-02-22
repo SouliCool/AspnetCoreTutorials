@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CryptoHelper" Version="3.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.0.2105168" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SouliCool.Tutorials.Contracts\SouliCool.Tutorials.Contracts.csproj" />
+    <ProjectReference Include="..\SouliCool.Tutorials.Entities\SouliCool.Tutorials.Entities.csproj" />
+    <ProjectReference Include="..\SouliCool.Tutorials.LoggerService\SouliCool.Tutorials.LoggerService.csproj" />
+    <ProjectReference Include="..\SouliCool.Tutorials.Repository\SouliCool.Tutorials.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
